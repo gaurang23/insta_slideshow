@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/flipper"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/White">
+
+    <ImageButton
+        android:id="@+id/imgBtn1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="true"/>
+
+    <ImageButton
+        android:id="@+id/imgBtn2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgBtn1"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp"
+        android:background="@drawable/caption_tv_border"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/Black"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:id="@+id/pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/imgBtn1"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="8dp"
+        android:src="@drawable/pause"
+        android:visibility="gone"/>
+</RelativeLayout>

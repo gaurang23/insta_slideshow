@@ -1,0 +1,30 @@
+<resources>
+
+    <!--General:-->
+    <string name="app_name">IG-frames</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_app_preferences">AppPreferences</string>
+    <string name="title_activity_login">Login</string>
+
+    <!--App event specific:-->
+    <string name="undefined">Undefined</string>
+    <string name="restart">Slideshow restarted</string>
+
+    <!--Preferences/Settings-->
+    <string name="device_identification_title">Device Identification</string>
+    <string name="provide_location">Please provide the location for this device</string>
+    <string name="set_location">Set Location</string>
+    <string name="provide_id_number">Please provide an identification number for this device</string>
+    <string name="set_id_number">Set Identification Number</string>
+    <string name="timing_title">Timing</string>
+    <string name="provide_flip_time">Please set a flip interval (in seconds) - default is 3.5 s</string>
+    <string name="set_flip_time">Set Flip Interval</string>
+    <string name="tag_title">Tags</string>
+    <string name="provide_tags">Please provide a tag to fetch images</string>
+    <string name="set_tags">Set Tags</string>
+
+    <!--Login page-->
+    <string name="login_success">Login successful</string>
+    <string name="logout_url">https://instagram.com/accounts/logout</string>
+
+</resources>
